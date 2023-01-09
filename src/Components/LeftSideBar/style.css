@@ -1,0 +1,49 @@
+.sidebar {
+  color: white;
+}
+.profile_img img {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 3.6rem;
+  width: 75px;
+}
+.sidebar .profile {
+  flex-direction: column;
+  display: flex;
+  margin-left: 9rem;
+  margin-top: -3.5rem;
+}
+
+.sidebar .view {
+  margin-top: 2.8rem;
+  margin-bottom: 1.9rem;
+  margin-left: 3.7rem;
+  column-gap: 2rem;
+}
+
+.sidebar_icon {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  column-gap: 2rem;
+}
+.group,
+.hastag,
+.page,
+.statistics,
+.item,
+.profile_view {
+  display: flex;
+  gap: 1rem;
+  margin: 12px;
+}
+.profile_view {
+  box-shadow: 0px 1px gray;
+}
+
+/* ------------Left Sidebar Media Queries------------*/
+
+@media screen and (max-width: 1006px) {
+  aside {
+    display: none;
+  }
+}

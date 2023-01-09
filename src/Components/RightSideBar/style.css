@@ -1,0 +1,37 @@
+.recommended_profile {
+  display: grid;
+  margin-left: 1.4rem;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+/* .container_rightside {
+  } */
+.profile_1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-top: -3.3rem;
+}
+.profile1 {
+  display: flex;
+  margin-top: 0.4rem;
+  margin-left: 1rem;
+  align-items: center;
+  padding: 0px 10px 3px;
+  margin: 14px;
+}
+
+.add i {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 13rem;
+  color: rgb(45, 102, 167);
+  cursor: pointer;
+}
+/* --------------right sidebar  Media Queries---- */
+
+@media screen and (max-width: 1120px) {
+  .right_side {
+    display: none;
+  }
+}
