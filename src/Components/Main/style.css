@@ -4,3 +4,75 @@
   position: relative;
   border-radius: 1rem;
 }
+.text {
+  margin-top: 1%;
+  margin-left: 2.4rem;
+  font-size: 12px;
+  font-weight: 300;
+}
+.main_section input {
+  text-align: center;
+  margin-top: 1.8rem;
+  border: none transparent;
+  outline: none;
+}
+.main_media {
+  display: flex;
+  gap: 2rem;
+  margin-left: 1.9rem;
+  margin-top: 2.2rem;
+  color: gray;
+}
+
+.main_heading {
+  background: #fff;
+  margin-top: 3.2rem;
+  height: 80vh;
+  border-radius: 0.6rem;
+}
+
+.main_content {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  margin-left: 1.2rem;
+}
+.main_image img {
+  width: 110%;
+  height: auto;
+  border-radius: 0%;
+}
+.content {
+  margin-left: 1.3rem;
+  color: black;
+}
+
+.main_image {
+  width: 111%;
+  margin-top: 1.4rem;
+}
+
+.like {
+  display: flex;
+  gap: 2rem;
+  margin-left: 1.6rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1120px) {
+  main {
+    width: 70vh;
+  }
+  aside {
+    width: 30vh;
+  }
+}
+
+@media screen and (max-width: 1006px) {
+  main {
+    width: 85vw;
+    height: auto;
+    gap: 0rem;
+  }
+}

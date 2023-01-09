@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import { dp1, dp2, dp3, dp4 } from "../../assests";
+import "./style.css";
 
 const RightSidebar = () => {
   return (
@@ -8,7 +10,7 @@ const RightSidebar = () => {
           <p className="recommended_profile">Recommended profiles</p>
         </div>
         <div className="profile1">
-          <img src="assests/dp1.png" alt="" />
+          <img src={dp1} alt="pic" />
         </div>
         <div className="profile_1">
           <strong>Conrad Aiken</strong>
@@ -18,7 +20,7 @@ const RightSidebar = () => {
           <i className="fa-solid fa-circle-plus" />
         </div>
         <div className="profile1">
-          <img src="assests/dp2.png" alt="" />
+          <img src={dp2} alt="pic" />
         </div>
         <div className="profile_1">
           <strong>Norman Anos</strong>
@@ -28,7 +30,7 @@ const RightSidebar = () => {
           <i className="fa-solid fa-circle-plus" />
         </div>
         <div className="profile1">
-          <img src="assests/dp3.webp" alt="" />
+          <img src={dp3} alt="pic" />
         </div>
         <div className="profile_1">
           <strong>Beth Andersoi</strong>
@@ -38,7 +40,7 @@ const RightSidebar = () => {
           <i className="fa-solid fa-circle-plus" />
         </div>
         <div className="profile1">
-          <img src="assests/dp2.png" alt="" />
+          <img src={dp4} alt="pic" />
         </div>
         <div className="profile_1">
           <strong>Mayaa Andric</strong>

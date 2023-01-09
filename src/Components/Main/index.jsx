@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import { office, dp1 } from "../../assests";
+import "./style.css";
 
 const Main = () => {
   return (
@@ -31,11 +33,7 @@ const Main = () => {
           </div> */}
             <hr />
             <div className="main_content">
-              <img
-                className="profile_pic"
-                src="assests/dp1.png"
-                alt="profile Pic"
-              />
+              <img src={dp1} alt="profilePic" />
               <strong>James Smith</strong>
             </div>
             <p className="content">
@@ -45,11 +43,7 @@ const Main = () => {
               them directly.
             </p>
             <div className="main_image">
-              {/* <img
-                style={{ width: "90%", borderRadius: "0%" }}
-                src="assests/office.jpg"
-                alt="image"
-              /> */}
+              <img src={office} alt="officeImg" />
             </div>
             <div className="like">
               <i style={{ color: "red" }} className="fa-solid fa-heart" />
