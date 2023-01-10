@@ -30,27 +30,12 @@ div i {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 22% 47% 22%;
+  /* display: grid; */
+  /* grid-template-columns: 22% 47% 22%; */
   /* grid-template-columns: 1fr 2fr 1fr; */
+  display: flex;
   gap: 1rem;
-  width: 85%;
+  /* width: 85%; */
   margin: 1rem auto;
   margin-top: 60px;
-  color: rebeccapurple;
-}
-
-.main_section {
-  background: #fff;
-  height: 60vh;
-  position: relative;
-  border-radius: 1rem;
-}
-.left-sidebar,
-.right_side {
-  background: #fff;
-  min-height: 45vh;
-  max-width: 22vw;
-  position: relative;
-  border-radius: 1rem;
 }

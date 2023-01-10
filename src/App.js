@@ -8,9 +8,13 @@ const App = () => {
   return (
     <Fragment>
       <Navbar />
-      <LeftSidebar />
-      <Main />
-      <RightSidebar />
+      <div style={{ width: "80%", margin: "auto" }}>
+        <main style={{ display: "flex", justifyContent: "space-between" }}>
+          <LeftSidebar />
+          <Main />
+          <RightSidebar />
+        </main>
+      </div>
     </Fragment>
   );
 };

@@ -1,9 +1,14 @@
-.sidebar {
-  color: white;
+.container1 {
+  width: 22%;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 40vh;
+}
+.profile_img {
+  margin-top: 1.5rem;
 }
 .profile_img img {
   display: flex;
-  margin-top: 2rem;
   margin-left: 3.6rem;
   width: 75px;
 }
@@ -42,8 +47,11 @@
 
 /* ------------Left Sidebar Media Queries------------*/
 
-@media screen and (max-width: 1006px) {
-  aside {
+@media screen and (max-width: 913px) {
+  .container1 {
     display: none;
+  }
+  .container1 {
+    width: auto;
   }
 }

@@ -3,7 +3,7 @@ nav .navbar {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 0 4rem;
+  padding: 10px 8%;
   background: #fff;
   width: 100vw;
   position: fixed;
@@ -74,7 +74,13 @@ div img {
   border-radius: 50%;
 }
 /* ----------------------------Navbar Media Queries------ */
-
+/* 
+@media screen and (max-width: 525px) {
+  .navbar {
+    margin: 0%;
+    padding: 0;
+  }
+} */
 @media screen and (max-width: 1080px) {
   nav div input {
     display: none;
