@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./style.css";
 import { profile } from "../../assests";
 
 const LeftSideBar = () => {
   return (
-    <Fragment>
-      <div className="container1">
+    <div className="container1">
+      <div className="container_1">
         <div className="sidebar">
           <div className="profile_img">
             <img src={profile} alt="profilePic" />
@@ -41,7 +41,7 @@ const LeftSideBar = () => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

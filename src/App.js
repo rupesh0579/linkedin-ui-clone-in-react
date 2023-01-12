@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import LeftSidebar from "./Components/LeftSideBar/index";
 import Main from "./Components/Main/index";
 import Navbar from "./Components/Navbar/Index";
@@ -6,16 +6,30 @@ import RightSidebar from "./Components/RightSideBar";
 
 const App = () => {
   return (
-    <Fragment>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        height: "100vh",
+        // overflow: "hidden",
+      }}
+    >
       <Navbar />
-      <div style={{ width: "80%", margin: "auto" }}>
-        <main style={{ display: "flex", justifyContent: "space-between" }}>
-          <LeftSidebar />
-          <Main />
-          <RightSidebar />
-        </main>
-      </div>
-    </Fragment>
+      <main
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          width: "80%",
+          margin: "auto",
+          flex: 1,
+          // overflow: "hidden",
+        }}
+      >
+        <LeftSidebar />
+        <Main />
+        <RightSidebar />
+      </main>
+    </div>
   );
 };
 

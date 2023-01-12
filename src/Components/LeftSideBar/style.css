@@ -1,14 +1,15 @@
 .container1 {
   width: 22%;
+}
+.container_1 {
+  min-height: 45vh;
   background-color: white;
   border-radius: 10px;
-  min-height: 50vh;
+  min-height: 42vh;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-.profile_img {
-  margin-top: 1.5rem;
-}
+
 .profile_img img {
   display: flex;
   margin-left: 3.6rem;
@@ -48,12 +49,6 @@
 }
 
 /* ------------Left Sidebar Media Queries------------*/
-/* 
-@media screen and (max-width: 1305px) {
-  .container1 {
-    align-self: left;
-  }
-} */
 
 @media screen and (max-width: 1140px) {
   .container1 {

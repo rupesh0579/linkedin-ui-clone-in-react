@@ -80,7 +80,7 @@ div img {
     display: none;
   }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 910px) {
   nav div h6 {
     display: none;
   }
