@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { dp1, dp2, dp3, dp4 } from "../../assests";
+import { dp1, dp2, dp3, dp4, linkdin } from "../../assests";
 import "./style.css";
 
 const RightSidebar = () => {
@@ -54,7 +54,12 @@ const RightSidebar = () => {
           </div>
         </div>
         {/* --------------------container bottom------------------------------------ */}
-        <div className="container_bottom"></div>
+        <div className="container_bottom">
+          <p>Promoted</p>
+          <div className="linkdin_pic">
+            <img src={linkdin} alt="pic" />
+          </div>
+        </div>
       </div>
     </Fragment>
   );

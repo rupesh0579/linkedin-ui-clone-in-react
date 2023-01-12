@@ -74,13 +74,7 @@ div img {
   border-radius: 50%;
 }
 /* ----------------------------Navbar Media Queries------ */
-/* 
-@media screen and (max-width: 525px) {
-  .navbar {
-    margin: 0%;
-    padding: 0;
-  }
-} */
+
 @media screen and (max-width: 1080px) {
   nav div input {
     display: none;
@@ -88,6 +82,14 @@ div img {
 }
 @media screen and (max-width: 840px) {
   nav div h6 {
+    display: none;
+  }
+}
+@media screen and (max-width: 525px) {
+  .right i {
+    display: none;
+  }
+  .right input {
     display: none;
   }
 }

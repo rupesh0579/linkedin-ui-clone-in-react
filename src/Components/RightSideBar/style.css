@@ -1,8 +1,10 @@
 .container3 {
   width: 22%;
-  background-color: white;
-  border-radius: 10px;
-  min-height: 35vh;
+  /* background-color: white; */
+  /* min-height: 35vh; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 0.5rem; */
 }
 
 .recommended_profile {
@@ -43,8 +45,32 @@
 }
 
 /* -------------------container bottom -------------- */
+.container_top {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 0.5rem;
+  background-color: white;
+  margin-top: -1rem;
+  min-height: 38vh;
+}
+
 .container_bottom {
-  /* background-color: bisque; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  /* height: 36vh; */
+  margin-top: 4rem;
+  background-color: white;
+  height: 34vh;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.container_bottom p {
+  margin-left: 1.5rem;
+}
+.linkdin_pic img {
+  width: 100%;
+  border-radius: 0%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
