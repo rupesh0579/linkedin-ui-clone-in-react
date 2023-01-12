@@ -2,7 +2,7 @@
   width: 22%;
   background-color: white;
   border-radius: 10px;
-  min-height: 40vh;
+  min-height: 50vh;
 }
 .profile_img {
   margin-top: 1.5rem;
@@ -46,8 +46,14 @@
 }
 
 /* ------------Left Sidebar Media Queries------------*/
+/* 
+@media screen and (max-width: 1305px) {
+  .container1 {
+    align-self: left;
+  }
+} */
 
-@media screen and (max-width: 913px) {
+@media screen and (max-width: 1140px) {
   .container1 {
     display: none;
   }
