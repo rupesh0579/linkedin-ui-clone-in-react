@@ -1,8 +1,8 @@
 import React from "react";
-import LeftSidePanel from "./Components/leftsidepanel/index";
-import Main from "./Components/main/index";
+import LeftSidePanel from "./Components/card/leftsidepanel/index";
+import Main from "./Components/pages/home/index";
 import Navbar from "./Components/navbar/Index";
-import RightSidePanel from "./Components/rightsidepanel";
+import RightSidePanel from "./Components/card/rightsidepanel";
 
 const App = () => {
   return (

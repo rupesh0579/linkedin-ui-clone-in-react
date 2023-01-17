@@ -1,5 +1,6 @@
 .container3 {
   width: 22%;
+  margin-top: -0rem;
 }
 
 .recommended_profile {
@@ -9,13 +10,13 @@
   font-size: 14px;
 }
 
-.profile_1 {
+/* .profileitem {
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
   margin-top: -3.3rem;
 }
-.profile1 {
+.profileimage {
   display: flex;
   margin-top: 0.4rem;
   margin-left: 1rem;
@@ -30,7 +31,7 @@
   margin-left: 13rem;
   color: rgb(45, 102, 167);
   cursor: pointer;
-}
+} */
 /* --------------right sidebar  Media Queries---- */
 
 @media screen and (max-width: 1300px) {
@@ -55,9 +56,10 @@
   /* height: 36vh; */
   margin-top: 4rem;
   background-color: white;
-  height: 34vh;
+  /* height: 34vh; */
   margin-top: 1rem;
   border-radius: 0.5rem;
+  margin-bottom: auto;
 }
 
 .container_bottom p {

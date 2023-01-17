@@ -1,0 +1,32 @@
+[
+
+  {
+   
+     "name":"Conrad Aiken",
+     "designation":"Marketing Strategist",
+     "image":0
+
+  },
+  {
+   
+    "name":"Norman Anos",
+    "designation":"General Manager",
+    "image":1
+
+ },
+ {
+   
+    "name":"Beth Andersoi",
+    "designation":"Software Developer",
+    "image":2
+
+ },
+ {
+   
+    "name":"Mayaa Andric",
+    "designation":" UI Designer",
+    "image":3
+
+ }
+
+]

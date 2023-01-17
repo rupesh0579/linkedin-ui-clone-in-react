@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { profile } from "../../assests";
+import { profile } from "../../../assests";
 
 const LeftSidePanel = () => {
   return (
