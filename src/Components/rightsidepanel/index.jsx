@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { dp1, dp2, dp3, dp4, linkdin } from "../../assests";
 import "./style.css";
 
-const RightSidebar = () => {
+const RightSidePanel = () => {
   return (
     <Fragment>
       <div className="container3">
@@ -65,4 +65,4 @@ const RightSidebar = () => {
   );
 };
 
-export default RightSidebar;
+export default RightSidePanel;

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { profile } from "../../assests";
 
-const LeftSideBar = () => {
+const LeftSidePanel = () => {
   return (
     <div className="container1">
       <div className="container_1">
@@ -45,4 +45,4 @@ const LeftSideBar = () => {
   );
 };
 
-export default LeftSideBar;
+export default LeftSidePanel;

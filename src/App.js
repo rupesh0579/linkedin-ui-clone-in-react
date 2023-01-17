@@ -1,18 +1,18 @@
 import React from "react";
-import LeftSidebar from "./Components/LeftSideBar/index";
-import Main from "./Components/Main/index";
-import Navbar from "./Components/Navbar/Index";
-import RightSidebar from "./Components/RightSideBar";
+import LeftSidePanel from "./Components/leftsidepanel/index";
+import Main from "./Components/main/index";
+import Navbar from "./Components/navbar/Index";
+import RightSidePanel from "./Components/rightsidepanel";
 
 const App = () => {
   return (
     <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        height: "100vh",
-        // overflow: "hidden",
-      }}
+    // style={{
+    //   display: "flex",
+    //   flexDirection: "column",
+    //   height: "100vh",
+    //   // overflow: "hidden",
+    // }}
     >
       <Navbar />
       <main
@@ -21,13 +21,13 @@ const App = () => {
           justifyContent: "space-between",
           width: "80%",
           margin: "auto",
-          flex: 1,
+          // flex: 1,
           // overflow: "hidden",
         }}
       >
-        <LeftSidebar />
+        <LeftSidePanel />
         <Main />
-        <RightSidebar />
+        <RightSidePanel />
       </main>
     </div>
   );
