@@ -19,7 +19,7 @@ const RightSidePanel = () => {
             {mockData.map((item, index) => (
               <RecomendationProfileCard
                 key={index}
-                profile={{ ...item, path: image[item.image] }}
+                profile={{ ...item, image: image[item.image] }}
               />
             ))}
           </div>
