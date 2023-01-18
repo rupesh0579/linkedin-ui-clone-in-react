@@ -15,13 +15,7 @@ const Card = ({ maincontent }) => {
         <img src={maincontent.image} alt="pic" />
         <strong>{maincontent.name}</strong>
       </div>
-      <p className="content">
-        {maincontent.description}
-        {/* Fronted Web Depveloper:Front-end web development, also known as
-        client-side development is the practice of producing HTML, CSS and
-        JavaScript for a website so that a user can see and interact with them
-        directly. */}
-      </p>
+      <p className="content">{maincontent.description}</p>
       <div className="main_image">
         <img src={maincontent.office} alt="pic" />
         {/* <img src={office} alt="officeImg" /> */}

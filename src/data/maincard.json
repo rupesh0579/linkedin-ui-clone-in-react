@@ -5,5 +5,12 @@
 
     "image": 0,
     "office": "https://compass-ssl.microsoft.com/assets/4f/d8/4fd86f4e-f807-44e4-bdc4-34da4a88da2b.jpg?n=ioc_home_hero_1260x473.jpg"
+  },
+  {
+    "name": "Mr. john",
+    "description": "Fronted Web Depveloper:Front-end web development, also known as  client-side development is the practice of producing HTML, CSS and JavaScript for a website so that a user can see and interact with them directly.",
+
+    "image": 0,
+    "office": "https://compass-ssl.microsoft.com/assets/4f/d8/4fd86f4e-f807-44e4-bdc4-34da4a88da2b.jpg?n=ioc_home_hero_1260x473.jpg"
   }
 ]

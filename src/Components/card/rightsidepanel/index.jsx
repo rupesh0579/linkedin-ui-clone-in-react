@@ -7,7 +7,6 @@ import mockData from "../../../data/recomendation.json";
 const image = [dp1, dp2, dp3, dp4];
 
 const RightSidePanel = () => {
-  // console.log("dd", dp1);
   return (
     <Fragment>
       <div className="container3">

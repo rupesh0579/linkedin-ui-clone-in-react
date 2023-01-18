@@ -6,7 +6,7 @@ import mockData from "../../../data/maincard.json";
 const image = [dp1];
 
 const Main = () => {
-  console.log("dfj", image[1]);
+  // console.log("dfj", image[1]);
   return (
     <div className="container2">
       <div className="container_two">
