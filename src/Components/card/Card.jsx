@@ -1,5 +1,5 @@
 import React from "react";
-// import { office, dp1 } from "../../assests";
+import { office } from "../../assests";
 
 const Card = ({ maincontent }) => {
   return (
@@ -17,7 +17,7 @@ const Card = ({ maincontent }) => {
       </div>
       <p className="content">{maincontent.description}</p>
       <div className="main_image">
-        <img src={maincontent.office} alt="pic" />
+        <img src={maincontent.office ? maincontent.office : office} alt="pic" />
         {/* <img src={office} alt="officeImg" /> */}
       </div>
       <div className="like">
