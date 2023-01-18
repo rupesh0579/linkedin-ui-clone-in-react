@@ -1,7 +1,7 @@
 import React from "react";
-import { office, dp1 } from "../../assests";
+// import { office, dp1 } from "../../assests";
 
-const Card = () => {
+const Card = ({ maincontent }) => {
   return (
     <div className="main_heading">
       <div class="comment">
@@ -12,17 +12,19 @@ const Card = () => {
       </div>
       <hr />
       <div className="main_content">
-        <img src={dp1} alt="profilePic" />
-        <strong>James Smith</strong>
+        <img src={maincontent.image} alt="pic" />
+        <strong>{maincontent.name}</strong>
       </div>
       <p className="content">
-        Fronted Web Depveloper:Front-end web development, also known as
+        {maincontent.description}
+        {/* Fronted Web Depveloper:Front-end web development, also known as
         client-side development is the practice of producing HTML, CSS and
         JavaScript for a website so that a user can see and interact with them
-        directly.
+        directly. */}
       </p>
       <div className="main_image">
-        <img src={office} alt="officeImg" />
+        <img src={maincontent.office} alt="pic" />
+        {/* <img src={office} alt="officeImg" /> */}
       </div>
       <div className="like">
         <i style={{ color: "red" }} className="fa-solid fa-heart" />

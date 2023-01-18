@@ -1,8 +1,12 @@
 import React from "react";
 import "./style.css";
+import { office, dp1 } from "../../../assests";
 import Card from "../../card/Card";
+import mockData from "../../../data/maincard.json";
+const image = [dp1];
 
 const Main = () => {
+  console.log("dfj", image[1]);
   return (
     <div className="container2">
       <div className="container_two">
@@ -25,11 +29,15 @@ const Main = () => {
           </div>
         </div>
       </div>
-      {/* ------------------------------------------------------------ */}
       <div className="main_container">
-        <Card />
-        <Card />
-        <Card />
+        {mockData.map((item, index) => {
+          return (
+            <Card
+              key={index}
+              maincontent={{ ...item, image: image[item.image] }}
+            />
+          );
+        })}
       </div>
     </div>
   );
