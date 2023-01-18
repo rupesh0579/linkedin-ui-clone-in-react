@@ -3,9 +3,8 @@ import "./styles.css";
 
 function RecomendationProfileCard({ profile }) {
   function showprofile() {
-    console.log("profile open successfully");
+    console.log("profile open successfully", profile);
   }
-  //   console.log("rupesh", dp1);
   return (
     <div>
       <div className="profileimage">

@@ -25,7 +25,6 @@ const RightSidePanel = () => {
           </div>
         </div>
         {/* --------------------container bottom------------------------------------ */}
-
         <Advertisementcard />
       </div>
     </Fragment>

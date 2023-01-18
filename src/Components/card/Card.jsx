@@ -5,7 +5,9 @@ const Card = () => {
   return (
     <div className="main_heading">
       <div class="comment">
-        <p className="commented">Mark Suckerberg commented on this</p>
+        <p className="commented">
+          <span>Mark Suckerberg</span> commented on this
+        </p>
         <i class="fa-solid fa-ellipsis"></i>
       </div>
       <hr />

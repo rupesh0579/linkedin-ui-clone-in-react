@@ -44,12 +44,15 @@
 .comment {
   display: flex;
   justify-content: space-between;
-  /* margin-top: 1.2rem; */
 }
 
 .commented {
   margin-left: 0.9rem;
   margin-top: 0.6rem;
+}
+.commented span {
+  font-size: 14px;
+  color: black;
 }
 
 .comment i {

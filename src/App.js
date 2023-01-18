@@ -6,14 +6,7 @@ import RightSidePanel from "./Components/card/rightsidepanel";
 
 const App = () => {
   return (
-    <div
-    // style={{
-    //   display: "flex",
-    //   flexDirection: "column",
-    //   height: "100vh",
-    //   // overflow: "hidden",
-    // }}
-    >
+    <div>
       <Navbar />
       <main
         style={{
